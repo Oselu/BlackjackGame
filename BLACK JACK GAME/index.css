@@ -12,11 +12,11 @@ body{
 
 h1 {
     color: #001427;
-    font-size: 52px;
+    font-size: 64px;
 }
 
 p{
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .header-text{
@@ -34,4 +34,36 @@ p{
 
 .body-text p {
     text-align: center;
+    font-weight: bold;
+    
+}
+
+.body-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    background-color: #708D81;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 16px;
+    font-size: 28px;
+    color:white ;
+}
+
+#top-message{
+    color:#8D0801;
+    font-style: italic;
+}
+
+#top-message{
+    font-size: 40px;
 }

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <!-- Link to the index.css file
+        E.g. search for "how to link to css from html" -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main-div">
+
+            <div class="header-text">
+                <h1>BLACK JACK GAMES</h1>
+            </div>
+
+            <div class="body-text">
+                <div class="second-section">
+                    <div class="top-message-cont">
+                        <p id="top-message">Do you want to play a round?</p>
+                    </div>
+                   <div class="extra-text">
+                    <p id ="card-picks">Your card picks are:</p>
+                    <p id="total-sum">Their Sum is:</p>
+                   </div>
+                </div>
+                
+                <button onclick="startGame()">START GAME</button>
+                <button onclick="newCard()">NEW CARD</button>
+                <p id="player-el"></p>
+                
+            </div>
+            
+        </div>
+        <p class="bottom-label">OSELUCODED this with &#128155</p>
+        <script src="index.js"></script>
+    </body>
+</html> 

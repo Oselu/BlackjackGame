@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body{
+    background-color:  #0B6623;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Cinzel', serif;
+    color: #FFD700;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.header-text{
+    margin-bottom:4px;
+}
+
+#card-picks{
+    color: white;
+}
+
+#total-sum{
+    color: white;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+    background-color: #2a8c44;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 4px solid#54b66e;
+    border-radius: 32px;
+}
+
+.body-text p {
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.body-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+
+
+button {
+    background: linear-gradient(#FFD700, #DAA520);
+    border: 2px solid #B8860B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 12px;
+    margin-top: 16px;
+    font-size: 28px;
+    color:white ;
+    font-weight: bold;
+}
+
+
+
+#top-message{
+    color:#FFD700;
+    font-style: italic;
+}
+
+#top-message{
+    font-size: 24px;
+}
+
+.top-message-cont{
+    background-color: #2a8c44;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 72px;
+    padding-right: 72px;
+    margin-bottom: 24px;
+    border-radius: 100px;
+}
+
+#player-el{
+    margin-top: 16px;
+    color: #ffffff;
+}
+
+.card {
+    background: white;
+    color: #001427;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 16px;
+    margin: 4px;
+    border-radius: 8px;
+    border: 2px solid #001427;
+    display: inline-block;
+}
+
+.second-section{
+    background-color: #0B6623;
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 28px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-bottom: 16px;
+
+}
+
+.bottom-label{
+    text-align: center;
+    margin-top: 72px;
+    font-size: 12px;
+    color:#3abf5e ;
+}
